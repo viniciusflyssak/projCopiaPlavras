@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/06 23:57:19.000.765,=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/04 01:43:27.000.493,=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/04 01:44:11.000.199,C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\copiadorPalavra\uFrmMain.dfm</Transaction>
+    <Transaction>2022/08/04 01:44:11.000.199,C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\copiadorPalavra\uFrmMain.pas</Transaction>
+    <Transaction>2022/08/04 01:44:26.000.170,C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\copiadorPalavra\projCopiaPalavras.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
