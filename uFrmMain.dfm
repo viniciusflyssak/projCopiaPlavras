@@ -20,67 +20,64 @@ object frmPrincipal: TfrmPrincipal
     Height = 621
     Align = alClient
     TabOrder = 0
-    ExplicitLeft = 128
-    ExplicitTop = 16
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitLeft = 112
     object lblPalavra: TLabel
-      Left = 88
-      Top = 27
+      Left = 16
+      Top = 11
       Width = 40
       Height = 13
       Caption = 'Palavra:'
     end
     object lblQtde: TLabel
-      Left = 88
+      Left = 16
       Top = 67
       Width = 60
       Height = 13
       Caption = 'Quantidade:'
     end
     object btnIniciar: TSpeedButton
-      Left = 456
+      Left = 416
       Top = 27
-      Width = 89
-      Height = 58
+      Width = 145
+      Height = 78
       Caption = 'Iniciar'
       OnClick = btnIniciarClick
     end
     object mmoPalavrasCopiadas: TMemo
       Left = 1
-      Top = 136
+      Top = 144
       Width = 576
-      Height = 484
+      Height = 476
       Align = alBottom
       TabOrder = 0
       WantReturns = False
     end
     object edtPalavra: TEdit
-      Left = 160
-      Top = 24
-      Width = 225
+      Left = 16
+      Top = 27
+      Width = 273
       Height = 21
       TabOrder = 1
     end
     object edtQtde: TMaskEdit
-      Left = 160
-      Top = 64
-      Width = 65
+      Left = 16
+      Top = 86
+      Width = 73
       Height = 21
       TabOrder = 2
       Text = ''
     end
     object chkLinha: TCheckBox
-      Left = 456
-      Top = 91
+      Left = 95
+      Top = 88
       Width = 97
       Height = 17
       Caption = 'Cortar linha'
       TabOrder = 3
     end
     object chkMostrarNumero: TCheckBox
-      Left = 456
-      Top = 113
+      Left = 192
+      Top = 88
       Width = 97
       Height = 17
       Caption = 'Mostrar n'#250'mero'

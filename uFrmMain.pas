@@ -55,12 +55,11 @@ begin
       if chkMostrarNumero.Checked then
         palavra := IntToStr(i) + ': ' + palavra;
       if chkLinha.Checked then
-        mmoPalavrasCopiadas.Lines.Add(palavra)
+        textoAgrupado := textoAgrupado + #10#13 + palavra + #10#13
       else
         textoAgrupado := textoAgrupado + ' ' + palavra;
     end;
-    if not(textoAgrupado = '') then
-      mmoPalavrasCopiadas.Text := textoAgrupado;
+    mmoPalavrasCopiadas.Text := textoAgrupado;
   finally
     setaReadOnly(false);
   end;
